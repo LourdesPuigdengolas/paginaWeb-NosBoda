@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*para poder regular los bordes*/
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #520303;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+}
+.img{
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.inicio{
+    display: flex;
+    justify-content: right;
+    align-items: center;  /*para centrar verticalmente*/
+    margin-right: 5%;
+    background-color:#520303;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+}
+.inicio a{
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.inicio a:hover{
+    color: #FFD700;
+}
+.imagenNosBoda{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.titulo{
+    width: 90%;
+    height: 10%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    background-color: white(211, 233, 113)
+}
+h2{
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    font-family: Arial, Helvetica ,sans-serif;
+    text-align: center;
+ 
+}
+.texto1{
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    font-family: Arial, Helvetica ,sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.cards{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10%;
+    background-color: white;
+    
+
+}
+.contenido-imga{
+    width: 33%;
+    height: 90%;
+    display: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECC4B8;
+    margin-left: 5%;
+    padding: 5%;
+
+}
+
+.contenido-img{
+    width: 60%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;  
+    margin-right: 20%; 
+    margin-top: 10%;
+
+}
+.contenido-texto{
+    width: 90%;
+    height: 60%;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECC4B8;
+    margin-left: 5%;
+    padding-right: 5%;
+    margin-top: 35%;
+    padding-left: 5%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+
+
+.contacto {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: -10px;
+}
+  
+.boton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #DDC8C5;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+}
+.boton2 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+}
+
+.contacto1 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #520303;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+}
+.textoFoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    background-color: #520303;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 14px;
+    padding-top: 3%;
+}
+.iconos{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 1px;
+    margin-right: 5%;
+    background-color: #520303;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .cards{
+        width: 80%;
+        height: 50%;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 10%;
+        background-color: white; 
+    }
+
+    .contenido-imga{
+        width: 60%;
+        height: 90%;
+        display: column;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #ECC4B8;
+        margin-left: 15%;
+        padding: 15%;
+    
+    }
+    .contenido-img{
+        width: 60%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #ECC4B8;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 5%;
+    
+    }
+    .contenido-texto{
+        width: 90%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ECC4B8;
+        padding-right: 0%;
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    .contacto {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: black;
+        font-family: 'Quikcsand', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 45%;
+        margin-bottom: -10px;
+    }
+
+}

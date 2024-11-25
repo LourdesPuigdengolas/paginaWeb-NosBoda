@@ -1,0 +1,183 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #520303;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+}
+.img{
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.salir{
+    display: flex;
+    justify-content: right;
+    align-items: center;  /*para centrar verticalmente*/
+    margin-right: 5%;
+    background-color:#520303;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+}
+.salir a{
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.salir a:hover{
+    color: #FFD700;
+}
+.imagenNosBoda{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.contenido{
+    width: 100%;
+    height: 60%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    background-color: white(0, 174, 255);
+    text-align: center;
+    font-family: 'Quikcsand', sans-serif;
+}
+
+.contacto{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a7e895;
+    color: rgb(176, 94, 94);
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.botonera{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  
+
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #ecc4b8d4;
+    border-radius: 15px;
+
+    height: 40px;
+    width: 400px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+}
+.boton a:hover{
+    color: #af0101;
+    
+}
+
+.contacto {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+}
+  
+.boton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #DDC8C5;
+    border-radius: 15px;
+
+    height: 30px;
+    width: 100px;
+}
+.boton2 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+}
+.contacto1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #520303;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 16px;
+}
+.textoFoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    background-color: #520303;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 14px;
+    padding-top: 30px;
+}
+.iconos{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: -35px;
+    margin-right: 5%;
+    background-color: #520303;
+    color: white;
+    font-family: 'Quikcsand', sans-serif;
+    font-size: 14px;
+}
